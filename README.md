@@ -36,3 +36,9 @@ Puis choisir le fichier à uploader (cela peut prendre quelques secondes, avant 
 Puis cliquer sur "Mint". Cela vous dirigera vers la page de confirmation de la transaction sur metamask.
 Une fois la transaction validée, attendez quelques secondes, puis cliquez sur "List". Cela vous dirigera vers la page de confirmation de la transaction sur metamask (Possibilité de manque de token pour réeffectuer cette transaction). 
 Une fois la transaction validée, le NFT est en vente sur le marketplace avec son prix affiché.
+
+
+## Images en cas de problèmes de lecture
+![Marketplace](htt![Marketplace](https://user-images.githubusercontent.com/90263420/200898565-f745ea84-65f9-4f01-9236-eb054fd7e815.png)
+ps://user-images.githubuserco![Mes NFT](https://user-images.githubusercontent.com/90263420/200898594-ddeefc38-c259-450c-90e8-1963e983ab16.png)
+ntent.com/90263420/200898540-fdad855d-3973-48b3-8ec0-71ce7155527f.png)
