@@ -1,0 +1,47 @@
+.titre-app {
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: 10px;
+    border-radius: 12px;
+    min-width: 250px;
+    color: #f39c12;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+a.titre-app {
+    margin-right: 80px;
+}
+
+.titre-principal {
+    font-size: 30px;
+    color: #f39c12;
+    font-weight: bold;
+}
+
+.goerli-button {
+    background: orange;
+}
+
+.header-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(2, 0, 40);
+    background: linear-gradient(90deg, rgba(2, 0, 40, 1) 0%, rgba(31, 41, 108, 1) 100%);
+}
+
+.nav-app {
+    margin-top: 50px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+
+    justify-content: space-between;
+}
+
+.burger-app {
+    margin-top: 10px;
+    justify-content: space-between;
+}
