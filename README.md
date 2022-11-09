@@ -37,6 +37,8 @@ Puis cliquer sur "Mint". Cela vous dirigera vers la page de confirmation de la t
 Une fois la transaction validée, attendez quelques secondes, puis cliquez sur "List". Cela vous dirigera vers la page de confirmation de la transaction sur metamask (Possibilité de manque de token pour réeffectuer cette transaction). 
 Une fois la transaction validée, le NFT est en vente sur le marketplace avec son prix affiché.
 
+L'achat de NFT ne fonctionne uniquement qu'avec le premier bouton (NFT : Girlswim). Par manque de temps et après de nombreux tests, nous n'avons pas réussi à résoudre ce problème (tous les boutons sont reliés à la même fonction d'achat).
+
 
 ## Images en cas de problèmes de lecture
 ![Marketplace](https://user-images.githubusercontent.com/90263420/200898688-0ddf743a-dc69-4b01-a19f-aea3e5ea1152.png)
