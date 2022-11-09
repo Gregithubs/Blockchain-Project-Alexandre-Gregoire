@@ -76,9 +76,7 @@ export default function myAssets() {
         tokenURI = tokenURI.replace(/ipfs.infura.io/g, "ipfs.io");
         console.log(tokenURI);
         const meta = await axios.get(tokenURI);
-        //console.log('meta : ', meta)
         let price = ethers.utils.formatUnits(i.price.toString(), 'ether');
-        //console.log(price)
         let item = {
           price,
           tokenId: i.tokenId,
