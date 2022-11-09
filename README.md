@@ -8,11 +8,8 @@ Les achats se font à l'aide de metamask et de Goerli Tesnet.
 
 La blockchain fait partie intégrante du projet, car les NFTs sont enregistrées dans les transactions d'un smart contract, ce qui fait qu'elles sont accessibles à tous moment, mais leur achat et leur déploiement se fait aussi de manière sécurisée. Ces NFTS s'achètent à l'aide de l'outil Metamask et utilise le réseau Goerli Testnet.
 
-# Préparation de l'application
+# Préparation permettant l'utilisation projet
 ## Cloner le projet
-
-## Ouvrir et aller dans le dossier hardhat et installer la bibliothèque npm
-Accéder au dossier `cd hardhat && npm install`
 
 ## Ouvrir et aller dans le dossier my-app et installer la bibliothèque npm
 Accéder au dossier `cd my-app && npm install` 
@@ -23,13 +20,12 @@ Démarrer le serveur `npm run dev`
 Ouvrir l'URL suivant : localhost:3000
 
 # NB
+La partie hardhat, nous a permis de créer un smart contract. Elle comprenant un token spécifique (permettant de réaliser les transactions), et elle nous a permis de le déployer sur le réseau Goerli Testnet. Elle n'est pas utilisée lorsque l'on veut tester le site.
+Alors que la partie my-app, nous permet de créer et d'acheter des NFTs afin de les envoyer sur le smart contract.
 
-La partie hardhat, nous a permis de créer un smart contract. Elle comprenant un token spécifique (permettant de réaliser les transactions), et elle nous a permis de le déployer sur le réseau Goerli Testnet. 
-Alors que la partie my-app , nous permet de créer et d'acheter des NFTs afin de les envoyer sur le smart contract.
-
-# Utilisation de l'application
+# Utilisation du site
 Se connecter à metamask et avec un compte Goerli
-Puis appuyer sur le bouton "Connecter" pour se connecter à l'application.
+Puis appuyer sur le texte orange "Connecté la wallet" pour accéder au site.
 
 Visiter le marketplace et effectuer des achats de NFT
 Retrouver ses NFT dans la section "Mes NFTs"
