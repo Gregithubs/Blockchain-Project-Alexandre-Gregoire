@@ -1,5 +1,5 @@
 # NFT Marketplace
-Ce projet a été réalisé par Douceron Alexandre et Pateyron Grégoire
+Ce projet a été réalisé par Douceron Alexandre et Pateyron Grégoire.
 
 # Objectifs du projet
 Ce marketplace de NFT vous permet de Mint et d'acheter des NFTs.
