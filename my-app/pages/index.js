@@ -8,10 +8,7 @@ import { ethers } from 'ethers';
 
 
 export default function Home() {
-
-  // walletConnected keep track of whether the user's wallet is connected or not
   const [walletConnected, setWalletConnected] = useState(false);
-  // Create a reference to the Web3 Modal (used for connecting to Metamask) which persists as long as the page is open
   const web3ModalRef = useRef();
   const [accountAddress, setAccountAddress] = useState(undefined)
   const [nfts, setNfts] = useState([])
@@ -38,14 +35,11 @@ export default function Home() {
     }
   }
   const getProviderOrSigner = async (needSigner = false) => {
-    // Connect to Metamask
-    // Since we store `web3Modal` as a reference, we need to access the `current` value to get access to the underlying object
     const provider = await web3ModalRef.current.connect();
     const web3Provider = new providers.Web3Provider(provider);
     const accounts = await web3Provider.listAccounts()
     console.log(accounts[0])
     setAccountAddress(accounts[0])
-    // If user is not connected to the Mumbai network, let them know and throw an error
     const { chainId } = await web3Provider.getNetwork();
     if (chainId !== 5) {
       window.alert("Change the network to Goerli");
